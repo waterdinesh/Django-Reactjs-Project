@@ -1,0 +1,83 @@
+.secondbannerall {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    /* background-color: aqua; */
+    padding-top: 50px;
+  }
+  
+  .leftsecondbanner {
+    width: 50%;
+  }
+  
+  .rightsecondbanner {
+    width: 50%;
+    padding: 50px;
+  }
+  
+  .rightsecondbanner h1 {
+    font-size: 70px;
+    width: 400px;
+  }
+  
+  .carousel-control-next-icon,
+  .carousel-control-prev-icon {
+    display: inline-block;
+    width: 2rem;
+    height: 2rem;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: 100% 100%;
+    background-color: #ccff02;
+  }
+  
+  /* Media Queries */
+  
+  /* Mobile Screens */
+  @media screen and (min-width:320px) and (max-width:480px) {
+    .secondbannerall {
+      flex-direction: column;
+      height: auto;
+      padding-top: 20px;
+    }
+  
+    .leftsecondbanner,
+    .rightsecondbanner {
+      width: 100%;
+    }
+  
+    .rightsecondbanner h1 {
+      font-size: 40px;
+      width: 100%;
+    }
+  
+    .carousel-control-next-icon,
+    .carousel-control-prev-icon {
+      width: 1.5rem;
+      height: 1.5rem;
+    }
+  }
+  
+  /* Tablets */
+  @media only screen and (min-width: 601px) and (max-width: 1024px) {
+    .rightsecondbanner {
+      padding: 30px;
+    }
+  
+    .rightsecondbanner h1 {
+      font-size: 50px;
+      width: 100%;
+    }
+  
+    .carousel-control-next-icon,
+    .carousel-control-prev-icon {
+      width: 1.75rem;
+      height: 1.75rem;
+    }
+  }
+  
+  /* All Screen Sizes */
+  @media only screen and (min-width: 1025px) {
+    /* Add any additional styling for larger screens here */
+  }
+  

@@ -1,0 +1,51 @@
+.timeheartall {
+    display: flex;
+    height: 300px;
+    /* background-color: aqua; */
+    padding-top: 50px;
+  }
+  
+  .timeheartinside {
+    text-align: center;
+    width: 300px;
+    margin-left: 100px;
+  }
+  
+  .map-marker {
+    font-size: 70px;
+    color: rgb(97, 89, 89);
+  }
+  
+  /* Media Query for Phones */
+  @media screen and (min-width:320px) and (max-width:480px) {
+    .timeheartall {
+      flex-wrap: wrap;
+      justify-content: center;
+      height: auto;
+      padding-top: 20px;
+    }
+  
+    .timeheartinside {
+      margin-left: 0;
+      margin-bottom: 20px;
+    }
+  }
+  
+  /* Media Query for Tablets */
+  @media only screen and (min-width: 601px) and (max-width: 1024px) {
+    .timeheartall {
+      justify-content: center;
+      height: 200px;
+      padding-top: 30px;
+    }
+  }
+  
+  /* Media Query for All Screen Sizes */
+  @media only screen and (min-width: 1025px) {
+    /* No specific styles needed for larger screen sizes */
+  }
+  
+
+
+
+  

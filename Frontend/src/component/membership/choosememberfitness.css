@@ -1,0 +1,157 @@
+.fitnessallx2 {
+    /* display: flex; */
+    height: 150vh;
+    position: relative;
+    /* background-color: black; */
+}
+
+.fitmain2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fitmain2 h1 {
+    font-size: 390px;
+    color: #f5f7f0;
+    z-index: -8;
+    opacity: 0.1;
+}
+
+.fitnessallx2:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    /* background-image: url('/path/to/image.jpg'); Replace with your fitness image */
+    background-size: cover;
+    background-position: center;
+    z-index: -2;
+    /* opacity: 0.6; */
+}
+
+.chosememberh12 {
+    text-align: center;
+    color: #f5f7f0;
+    padding-bottom: 70px;
+    padding-top: 20px;
+}
+
+.chosememberone2 {
+    display: flex;
+    height: 100px;
+    border-bottom: 1px solid wheat;
+}
+
+.chosememberone2:hover {
+    background-color: rgb(118, 119, 119);
+}
+
+.chosememberh62 {
+    color: yellow;
+    font-size: 20px;
+    padding-top: 25px;
+}
+
+.chosememberone2:hover .chosememberh22 {
+    color: yellow;
+}
+
+.modalcon1c2 {
+    text-align: center;
+}
+
+.chosemembertwo2 {
+    padding-left: 20px;
+    color: #f5f7f0;
+}
+
+.chosememberh52 {
+    color: rgb(202, 231, 202);
+    border: 1px solid;
+    height: 50px;
+    padding-top: 12px;
+    background: linear-gradient(90deg, rgba(109,121,9,1) 35%, rgba(0,212,255,1) 100%);
+    margin-top: 20px;
+    font-size: 15px;
+    margin-right: 5px;
+    margin-left: 5px;
+    border-image: linear-gradient(to right, red, transparent) 1;
+    /* font-style: italic; */
+    transform: skewY(-3deg);
+    transform-origin: top left;
+}
+
+/* Media Query for Mobile Screens */
+/* Media Query for Mobile Screens */
+@media screen and (min-width: 320px) and (max-width: 480px) {
+    .fitmain2 h1 {
+      font-size: 140px;
+    }
+  
+    .chosememberh12 {
+      font-size: 24px;
+    }
+  
+    .chosememberh62 {
+      font-size: 18px;
+    }
+  
+    .chosemembertwo2 {
+      font-size: 16px;
+    }
+  
+    .chosememberone2 {
+      height: 150px;
+    }
+  
+    .chosememberh52 {
+      height: 70px;
+    }
+  .fitnessallx2{
+   height: auto;
+  }
+    .fitnessallx2r {
+      width: 100%;
+      height: auto;
+    }
+    
+    .chosememberone {
+      height: auto;
+    }
+    
+    .chosemembertwo p {
+      width: 200px;
+      font-size: 10px;
+    }
+    
+    .chosememberone2 {
+      height: auto;
+    }
+    .fitnessall2{
+        height: auto;
+    }
+    .chooseheu{
+        height: auto;
+    }
+  }
+  
+
+/* Media Query for Tablets */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+    /* Add your styles here */
+}
+
+/* Media Query for All Screen Sizes */
+@media only screen and (min-width: 1025px) {
+    /* Add your styles here */
+}

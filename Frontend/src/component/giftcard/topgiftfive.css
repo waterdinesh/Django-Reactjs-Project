@@ -1,0 +1,126 @@
+.fitnessallx3{
+    display: flex;
+    height: 100vh;
+    position: relative;
+    padding-bottom: 200px;
+    border-bottom: 1px solid white;
+    /* background-color: black; */
+}
+.fitnessall3 {
+    /* display: flex; */
+    position: relative;
+    z-index: 1;
+    margin: auto;
+    /* padding-left: 10%; */
+
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); */
+}
+
+.fitnessall3 h1{
+    font-size: 70px;
+    padding-top: 100px;
+    color: aliceblue;
+}
+.fitnessall3 h3{
+    padding-left: 150px;
+    padding-top: 130px;
+    color: aliceblue;
+}
+.fitnessall3 h6{
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    color: black;
+    background-color:  #ccff02;
+    margin-left: 130px;
+    margin-top: 120px;
+    padding-top: 15px;
+}
+.fitmain3{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    display: flex;
+    align-items: flex-start;
+    justify-content: left;
+}
+.fitmain3 h1{
+    font-size: 360px;
+    color: #f5f7f0;
+    z-index: -8;
+       opacity: 0.1;
+
+}
+.fitnessallx3:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    /* background-image: url('/path/to/image.jpg'); Replace with your fitness image */
+    background-size: cover;
+    background-position: center;
+    z-index: -2;
+    /* opacity: 0.6; */
+}
+
+.fitnessall3 p{
+    color: #f5f7f0;
+}
+.acordianp{
+    width: 900px;
+    height: 200px;
+    padding-top: 20px;
+}
+
+  .accordion-button.collapsed{
+    background-color: black;
+    color: #f5f7f0;
+  }
+
+  
+/* Media Query for Phones */
+@media screen and (min-width:320px) and (max-width:480px) {
+
+    
+    
+    .fitmain3 h1{
+        font-size: 150px;
+        width: 300px;
+        
+    }
+    .fitnessall3 h1 {
+        font-size: 40px;
+        padding-top: 50px;
+        color: aliceblue;
+    }
+    .acordianp{
+        width: 300px;
+        height: 200px;
+        padding: 0px;
+    }
+  }
+  
+  /* Media Query for Tablets */
+  @media only screen and (min-width: 601px) and (max-width: 1024px) {
+    
+  }
+  
+  /* Media Query for All Screen Sizes */
+  @media only screen and (min-width: 1025px) {
+    
+  }
+  
+    

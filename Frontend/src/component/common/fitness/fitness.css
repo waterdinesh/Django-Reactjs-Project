@@ -1,0 +1,131 @@
+.fitnessallx{
+    display: flex;
+    height: 350px;
+    /* width: 100%; */
+    position: relative;
+    /* background-color: black; */
+}
+.fitnessall {
+    display: flex;
+    position: relative;
+    z-index: 1;
+    margin: auto;
+}
+
+.fitnessall h1{
+    font-size: 70px;
+    padding-top: 100px;
+    color: aliceblue;
+}
+.fitnessall h3{
+    padding-left: 150px;
+    padding-top: 130px;
+    color: aliceblue;
+}
+.fitnessall h6{
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    color: black;
+    background-color:  #ccff02;
+    margin-left: 130px;
+    margin-top: 120px;
+    padding-top: 15px;
+}
+.fitmain{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.fitmain h1{
+    font-size: 390px;
+    color: #f5f7f0;
+    z-index: -8;
+       opacity: 0.1;
+
+}
+.fitnessallx:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    /* background-image: url('/path/to/image.jpg'); Replace with your fitness image */
+    background-size: cover;
+    background-position: center;
+    z-index: -2;
+    /* opacity: 0.6; */
+}
+  /* Media Query for Phones */
+  @media screen and (min-width:320px) and (max-width:480px) {
+    
+    .fitnessall h6{
+        width: 200px;
+        height: 50px;
+        text-align: center;
+        color: black;
+        background-color:  #ccff02;
+        margin-left: 10px;
+        margin-top: 10px;
+        padding-top: 15px;
+    }
+
+    .fitnessall h1{
+        font-size: 20px;
+        padding-top: 10px;
+        color: aliceblue;
+        text-align: center;
+    }
+    .fitnessall h3{
+        padding-left: 10px;
+        padding-top: 10px;
+        color: aliceblue;
+    }
+    .fitnessall {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        z-index: 1;
+        /* margin: auto; */
+    }
+   .fitmain{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+   }
+   .h1 .fitmain{
+    width: 0%;
+   }
+   .fitmain h1{
+    font-size: 100px;
+    color: #f5f7f0;
+    z-index: -8;
+       opacity: 0.1;
+
+}
+  }
+  
+  /* Media Query for Tablets */
+  @media only screen and (min-width: 601px) and (max-width: 1024px) {
+    
+    
+   
+  }
+  
+  /* Media Query for All Screen Sizes */
+  @media only screen and (min-width: 1025px) {
+    
+    
+   
+  }
+
+
+

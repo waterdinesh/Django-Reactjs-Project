@@ -1,0 +1,107 @@
+@keyframes motion {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+/* body{
+  
+} */
+
+.motionwordall {
+  background-color: black;
+  height: 100px;
+  overflow: hidden;
+}
+
+.personltrainerh1 {
+  white-space: nowrap;
+  overflow: hidden;
+  animation: motion 5s linear infinite;
+  font-size: 40px;
+  padding-top: 20px;
+  background: linear-gradient(to right, #ff0000, #00ff00);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  /* text-fill-color: transparent; */
+}
+
+.personltrainerh1:hover {
+  animation-play-state: paused;
+}
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.image-rotation {
+  animation: rotate 15s linear infinite;
+ 
+}
+.motionworddownleftinside{
+  width: 500px;
+}
+.motionworddownleftinside1{
+  padding-bottom: 50px;
+}
+.motionworddown{
+  display: flex;
+  padding: 20px;
+  background-color: black;
+}
+.motionworddownleft{
+  width: 50%;
+  color: aliceblue;
+}
+.motionworddownright{
+  width: 50%;
+}
+
+/* Media Query for Phones */
+@media screen and (min-width:320px) and (max-width:480px) {
+  .motionworddown{
+    display: flex;
+    flex-direction: column;
+    justify-content: center !important;
+
+  }
+  .motionworddownleftinside {
+    width: 100%;
+    text-align: center;
+  }
+  .motionworddownleftinside p {
+    width:250px;
+    text-align: center;
+    font-size: 12px;
+  }
+  .motionworddownleftinside h2 {
+    width:250px;
+    text-align: center;
+  }
+  
+  .motionworddownleftinside1{
+    margin: 0px auto;
+  }
+  .motoimg2img{
+   width: 100%;
+  }
+}
+
+/* Media Query for Tablets */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+  
+}
+
+/* Media Query for All Screen Sizes */
+@media only screen and (min-width: 1025px) {
+ 
+}
+
+  

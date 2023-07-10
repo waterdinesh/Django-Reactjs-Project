@@ -1,0 +1,144 @@
+ /* .card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 10px;
+  }
+  
+  .card {
+    width: 30%;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+  
+  .card-body {
+    padding: 10px;
+  }
+  
+  .card-body h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .card-body p {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  
+  .card-body a {
+    display: block;
+    font-size: 14px;
+    text-decoration: none;
+    color: #0077ff;
+  } */
+   
+
+    .card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: black;
+    
+  }
+  
+  .card {
+    width: calc(33.33% - 10px);
+    margin-bottom: 20px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    height: 550px;
+  
+    
+  }
+  .card a{
+    text-decoration: none;
+  }
+  
+  .card img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+  .cardimg{
+    overflow: hidden;
+    height: 500px;
+  }
+  
+  .card-body {
+    padding: 10px;
+  }
+  
+  .card h3 {
+    margin-top: 0;
+  } 
+   /* .card:hover {
+    transform: translateY(-10px);
+  } */
+  
+   .card img:hover {
+    transform: scale(1.2);
+    transition: 2s;
+  } 
+  
+  /* Media Query for Phones */
+  @media screen and (min-width:320px) and (max-width:480px) {
+  .card-container {
+    flex-wrap: wrap;
+    justify-content: center;
+    height: auto;
+    padding-top: 20px;
+    padding: 0px;
+  }
+  .card {
+    width: 100%;
+    margin-bottom: 20px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    overflow: hidden;
+    height: auto;
+  }
+  .cardimg{
+    overflow: hidden;
+    height: 400px;
+    
+  }
+  .card-body{
+    text-align: center;
+  }
+  
+}
+
+/* Media Query for Tablets */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+  .card-container {
+    flex-wrap: wrap;
+    justify-content: center;
+    height: auto;
+    padding-top: 20px;
+  }
+  .card {
+    width: 100%;
+    margin-bottom: 20px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    overflow: hidden;
+    height: auto;
+  }
+}
+
+/* Media Query for All Screen Sizes */
+@media only screen and (min-width: 1025px) {
+ 
+  /* No specific styles needed for larger screen sizes */
+}
+   

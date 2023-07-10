@@ -1,0 +1,174 @@
+.app-container23 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 1rem;
+  }
+  
+  table{
+    border-collapse: collapse;
+    width: 100%;
+    
+  }
+  .tabelall{
+    padding: 30px;
+  }
+  
+  th{
+    border: 1px solid #010805;
+    text-align: center;
+    padding: 8px;
+    font-size: 15px;
+    background-color: rgb(114, 114, 105);
+  }
+  td{
+    border: 1px solid #010805;
+    text-align: left;
+    padding: 8px;
+    font-size: 15px;
+  }
+  .schedulacartall{
+    background-color: black;
+    height: 100vh;
+    padding-top:50px ;
+  }
+  
+  
+  td{
+    background-color: gray;
+  }
+  .scbtn{
+    /* border: none; */
+    width: 120px;
+    border: 1px soild rgb(248, 240, 240);
+    height: 50px;
+    background-color: #5bb122;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .scbtn:nth-child(1){
+    margin-left: 250px;
+  }
+  .scbtn:hover{
+    background-color: yellow;
+  }
+  .pbox{
+    color: red;
+    text-align: center;
+    font-weight: 1000;
+  }
+  .cardiop{
+    color: rgb(20, 83, 5);
+    text-align: center;
+    font-weight: 1000;
+  }
+  .meditionp{
+    color: rgb(17, 0, 255);
+    text-align: center;
+    font-weight: 1000;
+  }
+  .crossfitp{
+    color: rgb(217, 255, 0);
+    text-align: center;
+    font-weight: 1000;
+  }
+  .yogap{
+    color: rgb(234, 0, 255);
+    text-align: center;
+    font-weight: 1000;
+  }
+  /* Media Queries */
+
+/* Mobile Screens */
+@media screen and (min-width:320px) and (max-width:480px) {
+    .app-container23 {
+     width: 100%;
+    }
+    .schedulacartall{
+      background-color: black;
+      height: 85vh;
+      padding-top:50px ;
+    }
+    .tabelall {
+     width: 100%;
+     padding: 0px;
+    }
+  
+    th,
+    td {
+      font-size: 8px;
+      padding: 0px;
+    }
+  
+    .scbtn {
+      width: 80px;
+      font-size: 12px;
+      margin-left: 10px;
+      margin-top: 5px;
+      margin-bottom: 5px;
+    }
+  
+    .scbtn:nth-child(1) {
+      margin-left: 10px;
+    }
+  
+    .pbox,
+    .cardiop,
+    .meditionp,
+    .crossfitp,
+    .yogap {
+      font-size: 9px;
+      font-weight: 300;
+    }
+  }
+
+  /* Media Query for Tablets */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+  .app-container23 {
+    width: 100%;
+   }
+   .schedulacartall{
+     background-color: black;
+     height: 85vh;
+     padding-top:50px ;
+   }
+   .tabelall {
+    width: 100%;
+    padding: 0px;
+   }
+ 
+   th,
+   td {
+     font-size: 8px;
+     padding: 0px;
+   }
+ 
+   .scbtn {
+     width: 80px;
+     font-size: 15px;
+     margin-left: 10px;
+     margin-top: 5px;
+     margin-bottom: 5px;
+   }
+ 
+   .scbtn:nth-child(1) {
+     margin-left: 10px;
+   }
+ 
+   .pbox,
+   .cardiop,
+   .meditionp,
+   .crossfitp,
+   .yogap {
+     font-size: 15px;
+     font-weight: 500;
+   }
+}
+
+/* Media Query for All Screen Sizes */
+@media only screen and (min-width: 1025px) {
+ 
+  /* No specific styles needed for larger screen sizes */
+}

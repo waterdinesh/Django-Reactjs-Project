@@ -1,0 +1,30 @@
+.joincluball {
+    background-image: url(../../images/trainer/Trainers-Hero@2x-scaled.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 70vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow-y: scroll;
+  }
+.joinclubbtn{
+    border: none;
+    background-color:#ccff02;
+    width: 150px;
+    height: 50px;
+    margin-top: 20px;
+}
+.joincluball h1{
+    font-size: 70px;
+    color: aliceblue;
+}
+.joincluball p{
+    font-size: 20px;
+    color: aliceblue;
+    width: 300px;
+    text-align: center;
+}

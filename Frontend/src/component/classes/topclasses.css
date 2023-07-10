@@ -1,0 +1,29 @@
+.all1 {
+  background-image: url(../images/classes/Classes-Hero@2x-scaled.jpg);
+  background-size: cover;
+  width: 100%;
+  height: 70vh;
+}
+
+/* Media Query for Phones */
+@media only screen and (max-width: 600px) {
+  .all1 {
+    height: 50vh; /* Adjust the height for phone screens */
+  }
+}
+
+/* Media Query for Tablets */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+  .all1 {
+    height: 60vh; /* Adjust the height for tablet screens */
+  }
+}
+
+/* Media Query for All Screen Sizes */
+@media only screen and (min-width: 1025px) {
+  .all1 {
+    height: 70vh; /* Adjust the height for all other screen sizes */
+  }
+}
+
+  

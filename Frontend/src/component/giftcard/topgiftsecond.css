@@ -1,0 +1,77 @@
+.topgiftsecondall {
+    display: flex;
+    height: 300px;
+    /* background-color: aqua; */
+    padding-top: 50px;
+  }
+  
+  .topgiftsecondinside {
+    text-align: center;
+    width: 300px;
+    margin-left: 100px;
+  }
+  
+  .map-marker1 {
+    font-size: 70px;
+    color: rgb(97, 89, 89);
+  }
+  
+  /* Media Query for Phones */
+  @media screen and (min-width:320px) and (max-width:480px) {
+    .topgiftsecondall {
+        width: 100%;
+      height: 800px;
+      padding-top: 30px;
+      display: flex;
+      flex-direction: column;
+    }
+    
+    .topgiftsecondinside {
+      width: 200px;
+      margin-left: 40px;
+
+    }
+  
+    .map-marker1 {
+      font-size: 40px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+    }
+  }
+  
+  /* Media Query for Tablets */
+  @media only screen and (min-width: 601px) and (max-width: 1024px) {
+    .topgiftsecondall {
+      height: 400px;
+      padding-top: 80px;
+      display: flex;
+      flex-direction: column;
+    }
+    
+    .topgiftsecondinside {
+      width: 400px;
+      margin-left: 150px;
+    }
+  
+    .map-marker1 {
+      font-size: 50px;
+    }
+  }
+  
+  /* Media Query for All Screen Sizes */
+  @media only screen and (min-width: 1025px) {
+    .topgiftsecondall {
+      height: 500px;
+      padding-top: 100px;
+    }
+    
+    .topgiftsecondinside {
+      width: 500px;
+      margin-left: 200px;
+    }
+  
+    .map-marker1 {
+      font-size: 70px;
+    }
+  }
+  

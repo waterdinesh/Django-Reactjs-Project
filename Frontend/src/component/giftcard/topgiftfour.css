@@ -1,0 +1,85 @@
+.topgiftfourall {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    /* background-color: black; */
+    padding-top: 50px;
+    padding-left: 20px;
+  }
+  
+  .imgtopfour {
+    height: 500px;
+    width: 100%;
+  }
+  
+  .righttopgiftfour {
+    width: 50%;
+    padding: 50px;
+  }
+  
+  .righttopgiftfour h1 {
+    font-size: 70px;
+    width: 400px;
+    /* color: aliceblue; */
+  }
+  
+  .righttopgiftfour p {
+    font-size: 20px;
+    width: 400px;
+    /* color: aliceblue; */
+  }
+  
+  .righttopgiftbtn {
+    border: none;
+    background-color: #ccff02;
+    width: 100px;
+    height: 50px;
+    margin-top: 20px;
+  }
+  
+  .lefttopgiftfour {
+    width: 50%;
+  }
+  
+  /* Media Query for Phones */
+  @media screen and (min-width:320px) and (max-width:480px) {
+    .topgiftfourall {
+      flex-direction: column;
+      padding: 20px;
+      align-items: center;
+      height: 120vh;
+    }
+  
+    .righttopgiftfour {
+      width: 100%;
+      padding: 20px;
+      text-align: center;
+    }
+  
+    
+    .righttopgiftfour p {
+        font-size: 15px;
+        width: 250px;
+    }
+    .righttopgiftfour h1{
+        font-size: 40px;
+          width: 250px;
+       
+    }
+    .imgtopfour{
+        height: 200px;
+        width:100%;
+      }
+
+  }
+  
+  
+  /* Media Query for Tablets */
+  @media only screen and (min-width: 601px) and (max-width: 1024px) {
+    
+  }
+  
+  /* Media Query for All Screen Sizes */
+  @media only screen and (min-width: 1025px) {
+    /* Add any additional styles for larger screens if needed */
+  }

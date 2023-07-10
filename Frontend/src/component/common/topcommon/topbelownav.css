@@ -1,0 +1,40 @@
+.topu h1 {
+    color: aliceblue;
+    font-size: 50px;
+    padding-top: 200px;
+    padding-left: 150px;
+    font-weight: bolder;
+    width: 700px;
+  }
+  
+  /* Media Query for Phones */
+  @media screen and (min-width:320px) and (max-width:480px) {
+    .topu h1 {
+      font-size: 20px; /* Adjust the font size for phone screens */
+      padding-top: 80px; /* Adjust the padding top for phone screens */
+      padding-left: 20px; /* Adjust the padding left for phone screens */
+      width: 300px; /* Adjust the width for phone screens */
+    }
+  }
+  
+  /* Media Query for Tablets */
+  @media only screen and (min-width: 601px) and (max-width: 1024px) {
+    .topu h1 {
+      font-size: 40px; /* Adjust the font size for tablet screens */
+      padding-top: 150px; /* Adjust the padding top for tablet screens */
+      padding-left: 100px; /* Adjust the padding left for tablet screens */
+      width: 500px; /* Adjust the width for tablet screens */
+    }
+  }
+  
+  /* Media Query for All Screen Sizes */
+  @media only screen and (min-width: 1025px) {
+    .topu h1 {
+      font-size: 50px; /* Adjust the font size for all other screen sizes */
+      padding-top: 200px; /* Adjust the padding top for all other screen sizes */
+      padding-left: 150px; /* Adjust the padding left for all other screen sizes */
+      width: 700px; /* Adjust the width for all other screen sizes */
+    }
+  }
+  
+

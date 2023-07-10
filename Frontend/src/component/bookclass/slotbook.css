@@ -1,0 +1,312 @@
+.slotbookall{
+  width: 800px;
+  height: 600px;
+  border: 1px solid black;
+  display: flex;
+  margin-left: 20%;
+ 
+}
+.cardleft{
+  width: 350px;
+  height: 600px;
+  border-right: 1px solid black;
+  background-color: grey;
+}
+.cardright{
+  width: 450px;
+  height: 600px;
+}
+.cardrightheader{
+  height: 100px;
+  width: 100%;
+  border-bottom: 1px solid black;
+  text-align: center;
+}
+.cardrightfoot{
+  height: 100px;
+  border-top: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.cardrightmiddle{
+  height: 400px;
+  overflow-y: auto;
+  text-align: center;
+}
+.hide {
+  display: none;
+}
+
+.block {
+  display: block;
+}
+.cardleftone{
+  width: 285px;
+  border: 1px solid black;
+  height: 140px;
+  margin-left: 30px;
+  padding: 3px;
+ 
+  background-color: rgb(213, 207, 207);
+}
+p{
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+h5{
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+.cardleftonet {
+  display: flex;
+  justify-content: space-around;
+}
+.cardleftonet1{
+  margin: 0;
+  padding: 0;
+}
+.cardrightone{
+  display: block;
+}
+.contentcenter{
+  border: 1px solid black;
+  width: 100%;
+  height: 300px;
+  margin-top: 0;
+  
+}
+.contentcentertop{
+  border: 1px solid black;
+  width: 90%;
+  height: 100px;
+  margin: 10px;
+  padding: 0;
+}
+.contentcentertop1{
+  display: flex;
+}
+.contentcentertop2{
+  border-top: 1px solid black;
+  width: 100%;
+  margin-top: 30px;
+}
+.contentcentertop3{
+  display: flex;
+}
+
+.ptagy {
+  display: flex;
+  flex-wrap: wrap;
+  width: 400px;
+  justify-content: center;
+  align-items: center;
+}
+.ptime{
+  width: 50px;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+.slotbokycalendar {
+  display: flex;
+  justify-content: center;
+}
+ .ptime:hover {
+  background-color: #580b0b;
+  color: #ccc;
+}
+
+
+.ptime:nth-child(2n+1),
+.ptime:nth-child(2n+2) {
+  width: 150px;
+}
+
+
+
+
+.step span {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #eb1515;
+  color: #ade416;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+}
+.step.active span {
+  background-color: #007bff;
+}
+/* Styling for active step */
+.step.active {
+  background-color: #ccff02; /* Set the background color for active step */
+  /* color: #ffffff; Set the text color for active step */
+}
+
+/* Styling for next stage */
+.step:not(.active):before {
+  background-color: #e9ecef; /* Set the background color for next stage */
+}
+
+/* Styling for completed stage */
+.step.complete {
+  background-color: #28a745; /* Set the background color for completed stage */
+  color: #ffffff; /* Set the text color for completed stage */
+}
+
+
+.wrapperdiv{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.innerdiv{
+  height: 20vh;
+  width: 40%;
+  border: 1px solid red;
+  margin: 5px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.innerdiv{
+  font-size: 50px;
+}
+.btn {
+  /* Add your common button styles here */
+  background-color: #ccff02;
+  color: rgb(211, 15, 15);
+  border: none;
+  width: 100px;
+  height: 40px;
+  margin-top: 0px;
+  font-size: 16px;
+}
+
+.btn:hover {
+  /* Add your button hover styles here */
+  background-color: #b3d202;
+  cursor: pointer;
+}
+
+.btn:disabled {
+  /* Add your button disabled styles here */
+  background-color: gray;
+  cursor: not-allowed;
+}
+
+
+/* Media Query for Phones */
+@media screen and (min-width:320px) and (max-width:480px) {
+  .slotbookall{
+    width: 100%;
+    /* flex-direction: column-reverse; */
+    
+    
+    margin-left: 0%;
+   
+  }
+  .servicetype{
+    font-size: 13px;
+  }
+  .person{
+    font-size: 10px;
+  }
+  .ptime{
+    width: 50px;
+  }
+  .selectedserviceslot{
+    width: 150px;
+  }
+  .cardleft{
+    width: 40%;
+    height: 600px;
+   
+  }
+  .cardright{
+    width: 60%;
+    height: 600px;
+  }
+
+  .cardleftone{
+    width: 105px;
+    height: 140px;
+    margin-left: 9px;
+    padding: 3px;
+  
+   
+   
+  }
+  .cardleftone h5{
+    
+    font-size: 13px;
+   
+   
+  }
+  .step span {
+    width: 20px;
+    height: 20px;
+   
+    font-size: 10px;
+}
+  .cardrightheader{
+    width: 100%;
+  }
+  .ptagy {
+   
+    width: 100%;
+    
+  }
+  .react-calendar {
+    
+    width: 80%;
+    
+}
+.infoemail{
+  font-size: 5px;
+  font-weight: 800;
+}
+.infoname,.infolastname,.infonumb{
+  font-size: 10px;
+  
+}
+abbr{
+  font-size: 8px;
+}
+.react-calendar__month-view__weekNumbers .react-calendar__tile {
+
+  font-size: 8px;
+ 
+}
+.react-calendar__month-view__weekdays {
+ 
+  font-size: 7px;
+}
+.react-calendar {
+  
+  width: 100%;
+  
+}
+.innerdiv{
+  font-size: 30px;
+}
+}
+
+/* Media Query for Tablets */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+ 
+}
+
+/* Media Query for All Screen Sizes */
+@media only screen and (min-width: 1025px) {
+  
+}
+
+  
